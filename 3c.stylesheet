@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    p {
+      color: rgba(21, 73, 195, 0.875);   
+      font-size: 18px; 
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1 style="color: rgb(228, 10, 10);">An inline element does not start on a new line.</h1>
+  <p>An internal style sheet may be used if one single HTML page has a unique style.</p>
+  <div class="box">An inline style may be used to apply a unique style for a single element.</div>
+</body>
+</html>
