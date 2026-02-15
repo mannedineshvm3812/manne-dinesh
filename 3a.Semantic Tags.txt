@@ -1,0 +1,79 @@
+3.a.<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML3 Semantic Tags</title>
+    <style>
+        body { 
+            font-family: Arial; 
+        }
+
+        header, nav, main, section, article, aside, footer {
+            border: 1px solid black;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        nav a { 
+            margin-right: 10px; 
+        }
+
+        figure img {
+            width: 250px;     /* controls image size */
+            height: auto;     /* keeps aspect ratio */
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Web Page</h1>
+    <p>Learning <span style="color:blue;">HTML3 Semantic Tags</span></p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<main>
+
+    <section>
+        <h2>Technology Section</h2>
+
+        <article>
+            <h3>HTML3 Introduction</h3>
+            <p>
+                HTML3 introduces new semantic elements that help structure
+                web pages more meaningfully.
+            </p>
+
+            <figure>
+                <img src="C:\Users\VASANTHA\Pictures\Screenshots\Screenshot 2026-01-27 195651.png"
+                     alt="HTML3 Image">
+                <figcaption>Fig: HTML3 Logo (Sample Image)</figcaption>
+            </figure>
+        </article>
+    </section>
+
+    <aside>
+        <h3>Related Information</h3>
+        <p>Semantic tags improve accessibility and SEO.</p>
+    </aside>
+
+    <div>
+        <p>
+            This is a <span style="color:red;">div</span> container used for
+            grouping content.
+        </p>
+    </div>
+
+</main>
+
+<footer>
+    <p>&copy; 2027 My Website | Designed using HTML5</p>
+</footer>
+
+</body>
+</html>
